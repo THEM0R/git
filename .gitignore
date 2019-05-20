@@ -1,0 +1,8 @@
+# ignore folder logs
+logs/
+
+# ignore folder Users
+C-Users-SpeedMor/
+
+# ignore txt file
+docs/*.txt

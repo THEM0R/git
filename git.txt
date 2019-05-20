@@ -1,0 +1,38 @@
+-------------------------------------
+----- git init ----------------------
+-------------------------------------
+git init
+
+git config --global user.name "Yaroslav"
+git config --global user.email the.mor.ua@gmail.com
+
+git config --list // всі дані настройок
+
+-------------------------------------
+----- Игнорирование файлов ----------
+-------------------------------------
+.gitignore
+
+# folder logs
+logs/
+# folder Users
+C-Users-SpeedMor/
+
+docs/*.txt // игнорировать фали txt в папке docs
+
+-------------------------------------
+----- git status --------------------
+-------------------------------------
+git status
+
+git status --untracked-files=all
+git status --untracked-files=normal // показать untrecked файли которие еще не в git
+-------------------------------------
+----- Добавление файлов -------------
+-------------------------------------
+git add
+git add . // добавить все файли
+
+git rm --cached 0960599112.txt // удаление файла из git
+
+git commit -a -m"init" // поместить в индекс -- стартовая система git
