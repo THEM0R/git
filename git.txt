@@ -65,3 +65,4 @@ git log --pretty=format:"%h - %an, %ar : %s" // компактний вивод
 git log --since=2.weeks // комити за последние 2 недели
 
 git log -p -2 // 2 комити
+
