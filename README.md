@@ -15,11 +15,16 @@ git config --list // все данные настроек
 .gitignore
 
  -# folder logs
+ 
 logs/
+
  -# folder Users
+ 
 Users/
 
-docs/*.txt // игнорировать фали txt в папке docs
+docs/*.txt 
+
+// игнорировать фали txt в папке docs
 
 # git status
 
