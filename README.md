@@ -1,2 +1,2 @@
-# git
+# git & github
 git test project
